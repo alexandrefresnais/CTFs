@@ -1,0 +1,512 @@
+        0040127d 4d 01 d1        ADD        R9,R10
+        0040128d 49 09 d9        OR         R9,RBX
+        0040129d 48 31 f3        XOR        RBX,RSI
+        004012ad 66 81 f3        XOR        BX,0x34cc
+        004012bd 88 df           MOV        BH,BL
+        004012cd 88 df           MOV        BH,BL
+        004012dd 88 df           MOV        BH,BL
+        004012ed 4d 01 d1        ADD        R9,R10
+        004012fd 88 df           MOV        BH,BL
+        0040130d 48 31 f3        XOR        RBX,RSI
+        0040131d 48 31 f3        XOR        RBX,RSI
+        0040132d 4d 01 e3        ADD        R11,R12
+        0040133d 4d 01 d1        ADD        R9,R10
+        0040134d 66 81 f3        XOR        BX,0x6369
+        0040135d 48 31 f3        XOR        RBX,RSI
+        0040136d 49 09 d9        OR         R9,RBX
+        0040137d 8a 5f 2c        MOV        BL,byte ptr [RDI + 0x2c]
+        0040138d 4d 01 e3        ADD        R11,R12
+        0040139d 8a 5f 36        MOV        BL,byte ptr [RDI + 0x36]
+        004013ad 4d 01 e3        ADD        R11,R12
+        004013bd 4d 01 e3        ADD        R11,R12
+        004013cd 8a 5f 1f        MOV        BL,byte ptr [RDI + 0x1f]
+        004013dd 88 df           MOV        BH,BL
+        004013ed 4d 01 e3        ADD        R11,R12
+        004013fd 66 81 f3        XOR        BX,0x67b7
+        0040140d 4d 01 d1        ADD        R9,R10
+        0040141d 8a 5f 3e        MOV        BL,byte ptr [RDI + 0x3e]
+        0040142d 48 31 f3        XOR        RBX,RSI
+        0040143d 48 31 f3        XOR        RBX,RSI
+        0040144d 88 df           MOV        BH,BL
+        0040145d 48 31 f3        XOR        RBX,RSI
+        0040146d 49 09 d9        OR         R9,RBX
+        0040147d 88 df           MOV        BH,BL
+        0040148d 88 df           MOV        BH,BL
+        0040149d 48 31 f3        XOR        RBX,RSI
+        004014ad 48 31 f3        XOR        RBX,RSI
+        004014bd 49 09 d9        OR         R9,RBX
+        004014cd 4d 01 e3        ADD        R11,R12
+        004014dd 88 df           MOV        BH,BL
+        004014ed 4d 01 e3        ADD        R11,R12
+        004014fd 49 09 d9        OR         R9,RBX
+        0040150d 88 df           MOV        BH,BL
+        0040151d 48 31 f3        XOR        RBX,RSI
+        0040152d 8a 5f 25        MOV        BL,byte ptr [RDI + 0x25]
+        0040153d 88 df           MOV        BH,BL
+        0040154d 8a 5f 17        MOV        BL,byte ptr [RDI + 0x17]
+        0040155d 66 81 f3        XOR        BX,0x7a24
+        0040156d 4d 01 d1        ADD        R9,R10
+        0040157d 48 31 f3        XOR        RBX,RSI
+        0040158d 49 09 d9        OR         R9,RBX
+        0040159d 4d 01 e3        ADD        R11,R12
+        004015ad 8a 5f 0d        MOV        BL,byte ptr [RDI + 0xd]
+        004015bd 66 81 f3        XOR        BX,0x31ad
+        004015cd 4d 01 d1        ADD        R9,R10
+        004015dd 88 df           MOV        BH,BL
+        004015ed 8a 5f 21        MOV        BL,byte ptr [RDI + 0x21]
+        004015fd 4d 01 d1        ADD        R9,R10
+        0040160d 48 31 f3        XOR        RBX,RSI
+        0040161d 4d 01 e3        ADD        R11,R12
+        0040162d 49 09 d9        OR         R9,RBX
+        0040163d 4d 01 e3        ADD        R11,R12
+        0040164d 4d 01 e3        ADD        R11,R12
+        0040165d 66 81 f3        XOR        BX,0x309f
+        0040166d 4d 01 e3        ADD        R11,R12
+        0040167d 49 09 d9        OR         R9,RBX
+        0040168d 4d 01 e3        ADD        R11,R12
+        0040169d 48 31 f3        XOR        RBX,RSI
+        004016ad 49 09 d9        OR         R9,RBX
+        004016bd 8a 5f 20        MOV        BL,byte ptr [RDI + 0x20]
+        004016cd 49 09 d9        OR         R9,RBX
+        004016dd 8a 5f 0a        MOV        BL,byte ptr [RDI + 0xa]
+        004016ed 88 df           MOV        BH,BL
+        004016fd 8a 5f 24        MOV        BL,byte ptr [RDI + 0x24]
+        0040170d 4d 01 e3        ADD        R11,R12
+        0040171d 66 81 f3        XOR        BX,0x476d
+        0040172d 88 df           MOV        BH,BL
+        0040173d 49 09 d9        OR         R9,RBX
+        0040174d 4d 01 d1        ADD        R9,R10
+        0040175d 66 81 f3        XOR        BX,0x31cf
+        0040176d 4d 01 e3        ADD        R11,R12
+        0040177d 4d 01 e3        ADD        R11,R12
+        0040178d 66 81 f3        XOR        BX,0x6678
+        0040179d 4d 01 e3        ADD        R11,R12
+        004017ad 66 81 f3        XOR        BX,0x63ea
+        004017bd 4d 01 d1        ADD        R9,R10
+        004017cd 48 31 f3        XOR        RBX,RSI
+        004017dd 8a 5f 1a        MOV        BL,byte ptr [RDI + 0x1a]
+        004017ed 88 df           MOV        BH,BL
+        004017fd 58              POP        RAX
+        0040180d 88 df           MOV        BH,BL
+        0040181d 4d 01 e3        ADD        R11,R12
+        0040182d 4d 01 d1        ADD        R9,R10
+        0040183d 66 81 f3        XOR        BX,0x6783
+        0040184d 49 09 d9        OR         R9,RBX
+        0040185d 66 81 f3        XOR        BX,0x6729
+        0040186d 8a 5f 29        MOV        BL,byte ptr [RDI + 0x29]
+        0040187d 88 df           MOV        BH,BL
+        0040188d 49 09 d9        OR         R9,RBX
+        0040189d 66 81 f3        XOR        BX,0x3211
+        004018ad 4d 01 e3        ADD        R11,R12
+        004018bd 48 31 f3        XOR        RBX,RSI
+        004018cd 66 81 f3        XOR        BX,0x3072
+        004018dd 8a 5f 2a        MOV        BL,byte ptr [RDI + 0x2a]
+        004018ed 66 81 f3        XOR        BX,0x3598
+        004018fd 48 31 f3        XOR        RBX,RSI
+        0040190d 50              PUSH       RAX
+        0040191d 66 81 f3        XOR        BX,0x67ad
+        0040192d 48 31 f3        XOR        RBX,RSI
+        0040193d 8a 5f 08        MOV        BL,byte ptr [RDI + 0x8]
+        0040194d 48 31 f3        XOR        RBX,RSI
+        0040195d 66 81 f3        XOR        BX,0x35aa
+        0040196d 88 df           MOV        BH,BL
+        0040197d 66 81 f3        XOR        BX,0x3831
+        0040198d 4d 01 e3        ADD        R11,R12
+        0040199d 4d 01 d1        ADD        R9,R10
+        004019ad 48 31 f3        XOR        RBX,RSI
+        004019bd 88 df           MOV        BH,BL
+        004019cd 49 ff c2        INC        R10
+        004019dd 8a 5f 3a        MOV        BL,byte ptr [RDI + 0x3a]
+        004019ed 48 31 f3        XOR        RBX,RSI
+        004019fd 4d 01 d1        ADD        R9,R10
+        00401a0d 4d 01 e3        ADD        R11,R12
+        00401a1d 4d 01 d1        ADD        R9,R10
+        00401a2d 8a 5f 35        MOV        BL,byte ptr [RDI + 0x35]
+        00401a3d 4d 01 d1        ADD        R9,R10
+        00401a4d 66 81 f3        XOR        BX,0x6358
+        00401a5d 88 df           MOV        BH,BL
+        00401a6d 88 df           MOV        BH,BL
+        00401a7d 49 09 d9        OR         R9,RBX
+        00401a8d 66 81 f3        XOR        BX,0x313f
+        00401a9d 66 81 f3        XOR        BX,0x35f6
+        00401aad 8a 5f 1d        MOV        BL,byte ptr [RDI + 0x1d]
+        00401abd 4d 01 e3        ADD        R11,R12
+        00401acd 4d 01 e3        ADD        R11,R12
+        00401add 4d 01 e3        ADD        R11,R12
+        00401aed 48 31 f3        XOR        RBX,RSI
+        00401afd 4d 01 e3        ADD        R11,R12
+        00401b0d 88 df           MOV        BH,BL
+        00401b1d 66 81 f3        XOR        BX,0x355e
+        00401b2d 49 09 d9        OR         R9,RBX
+        00401b3d 48 31 f3        XOR        RBX,RSI
+        00401b4d 88 df           MOV        BH,BL
+        00401b5d 88 df           MOV        BH,BL
+        00401b6d 66 81 f3        XOR        BX,0x6396
+        00401b7d 4d 01 d1        ADD        R9,R10
+        00401b8d 49 09 d9        OR         R9,RBX
+        00401b9d 4d 01 d1        ADD        R9,R10
+        00401bad 49 09 d9        OR         R9,RBX
+        00401bbd 49 09 d9        OR         R9,RBX
+        00401bcd 4d 01 d1        ADD        R9,R10
+        00401bdd 4d 01 e3        ADD        R11,R12
+        00401bed 49 09 d9        OR         R9,RBX
+        00401bfd 88 df           MOV        BH,BL
+        00401c0d 49 09 d9        OR         R9,RBX
+        00401c1d 4d 01 d1        ADD        R9,R10
+        00401c2d 88 df           MOV        BH,BL
+        00401c3d 88 df           MOV        BH,BL
+        00401c4d c3              RET
+        00401c5d 88 df           MOV        BH,BL
+        00401c6d 48 31 f3        XOR        RBX,RSI
+        00401c7d 8a 5f 3c        MOV        BL,byte ptr [RDI + 0x3c]
+        00401c8d 8a 5f 3b        MOV        BL,byte ptr [RDI + 0x3b]
+        00401c9d 88 df           MOV        BH,BL
+        00401cad 88 df           MOV        BH,BL
+        00401cbd 66 81 f3        XOR        BX,0x38f5
+        00401ccd 49 09 d9        OR         R9,RBX
+        00401cdd 4d 01 e3        ADD        R11,R12
+        00401ced 4d 01 d1        ADD        R9,R10
+        00401cfd 66 81 f3        XOR        BX,0x62c2
+        00401d0d 4d 01 e3        ADD        R11,R12
+        00401d1d 88 df           MOV        BH,BL
+        00401d2d 4d 01 d1        ADD        R9,R10
+        00401d3d 48 ff c0        INC        RAX
+        00401d4d 4d 01 d1        ADD        R9,R10
+        00401d5d 88 df           MOV        BH,BL
+        00401d6d 48 31 f3        XOR        RBX,RSI
+        00401d7d 88 df           MOV        BH,BL
+        00401d8d 66 81 f3        XOR        BX,0x38c7
+        00401d9d 4d 01 d1        ADD        R9,R10
+        00401dad 4d 01 e3        ADD        R11,R12
+        00401dbd 8a 5f 10        MOV        BL,byte ptr [RDI + 0x10]
+        00401dcd 48 31 f3        XOR        RBX,RSI
+        00401ddd 4d 01 e3        ADD        R11,R12
+        00401ded 4d 01 d1        ADD        R9,R10
+        00401dfd 49 09 d9        OR         R9,RBX
+        00401e0d 66 81 f3        XOR        BX,0x7cdb
+        00401e1d 49 09 d9        OR         R9,RBX
+        00401e2d 66 81 f3        XOR        BX,0x3322
+        00401e3d 4d 01 d1        ADD        R9,R10
+        00401e4d 49 09 d9        OR         R9,RBX
+        00401e5d 8a 5f 02        MOV        BL,byte ptr [RDI + 0x2]
+        00401e6d 49 09 d9        OR         R9,RBX
+        00401e7d 48 31 f3        XOR        RBX,RSI
+        00401e8d 49 d1 e2        SHL        R10,1
+        00401e9d 88 df           MOV        BH,BL
+        00401ead 48 31 f3        XOR        RBX,RSI
+        00401ebd 4d 01 d1        ADD        R9,R10
+        00401ecd 66 81 f3        XOR        BX,0x391b
+        00401edd 4d 01 e3        ADD        R11,R12
+        00401eed 4d 01 e3        ADD        R11,R12
+        00401efd 4d 01 d1        ADD        R9,R10
+        00401f0d 49 09 d9        OR         R9,RBX
+        00401f1d 88 df           MOV        BH,BL
+        00401f2d 8a 5f 45        MOV        BL,byte ptr [RDI + 0x45]
+        00401f3d 48 31 f3        XOR        RBX,RSI
+        00401f4d 48 31 f3        XOR        RBX,RSI
+        00401f5d 8a 5f 12        MOV        BL,byte ptr [RDI + 0x12]
+        00401f6d 4c 89 c8        MOV        RAX,R9
+        00401f7d 49 09 d9        OR         R9,RBX
+        00401f8d 8a 5f 2b        MOV        BL,byte ptr [RDI + 0x2b]
+        00401f9d 49 09 d9        OR         R9,RBX
+        00401fad 8a 5f 2d        MOV        BL,byte ptr [RDI + 0x2d]
+        00401fbd 48 31 f3        XOR        RBX,RSI
+        00401fcd 88 df           MOV        BH,BL
+        00401fdd 4d 01 d1        ADD        R9,R10
+        00401fed 8a 5f 41        MOV        BL,byte ptr [RDI + 0x41]
+        00401ffd 8a 5f 34        MOV        BL,byte ptr [RDI + 0x34]
+        0040200d 4d 01 e3        ADD        R11,R12
+        0040201d 49 09 d9        OR         R9,RBX
+        0040202d 49 09 d9        OR         R9,RBX
+        0040203d 88 df           MOV        BH,BL
+        0040204d 66 81 f3        XOR        BX,0x3922
+        0040205d 8a 5f 22        MOV        BL,byte ptr [RDI + 0x22]
+        0040206d 4d 01 d1        ADD        R9,R10
+        0040207d 4d 01 e3        ADD        R11,R12
+        0040208d 66 81 f3        XOR        BX,0x35da
+        0040209d 8a 5f 06        MOV        BL,byte ptr [RDI + 0x6]
+        004020ad 49 09 d9        OR         R9,RBX
+        004020bd 88 df           MOV        BH,BL
+        004020cd 8a 5f 2f        MOV        BL,byte ptr [RDI + 0x2f]
+        004020dd 4d 01 d1        ADD        R9,R10
+        004020ed 8a 5f 11        MOV        BL,byte ptr [RDI + 0x11]
+        004020fd 88 df           MOV        BH,BL
+        0040210d 66 81 f3        XOR        BX,0x67f0
+        0040211d 8a 5f 0e        MOV        BL,byte ptr [RDI + 0xe]
+        0040212d 88 df           MOV        BH,BL
+        0040213d 4d 01 e3        ADD        R11,R12
+        0040214d 88 df           MOV        BH,BL
+        0040215d 8a 5f 32        MOV        BL,byte ptr [RDI + 0x32]
+        0040216d 4d 01 e3        ADD        R11,R12
+        0040217d 8a 5f 0c        MOV        BL,byte ptr [RDI + 0xc]
+        0040218d 4d 01 d1        ADD        R9,R10
+        0040219d 49 09 d9        OR         R9,RBX
+        004021ad 88 df           MOV        BH,BL
+        004021bd 4d 01 e3        ADD        R11,R12
+        004021cd 4d 01 e3        ADD        R11,R12
+        004021dd 4d 01 d1        ADD        R9,R10
+        004021ed 88 df           MOV        BH,BL
+        004021fd 48 31 f3        XOR        RBX,RSI
+        0040220d 49 09 d9        OR         R9,RBX
+        0040221d 49 09 d9        OR         R9,RBX
+        0040222d 4d 01 d1        ADD        R9,R10
+        0040223d 49 09 d9        OR         R9,RBX
+        0040224d 8a 5f 27        MOV        BL,byte ptr [RDI + 0x27]
+        0040225d 8a 5f 42        MOV        BL,byte ptr [RDI + 0x42]
+        0040226d 48 ff c8        DEC        RAX
+        0040227d 66 81 f3        XOR        BX,0x33eb
+        0040228d 8a 5f 1b        MOV        BL,byte ptr [RDI + 0x1b]
+        0040229d 8a 5f 26        MOV        BL,byte ptr [RDI + 0x26]
+        004022ad 4d 01 d1        ADD        R9,R10
+        004022bd 49 09 d9        OR         R9,RBX
+        004022cd 4d 01 d1        ADD        R9,R10
+        004022dd 4d 01 d1        ADD        R9,R10
+        004022ed 66 81 f3        XOR        BX,0x64a8
+        004022fd 49 09 d9        OR         R9,RBX
+        0040230d 8a 5f 43        MOV        BL,byte ptr [RDI + 0x43]
+        0040231d 8a 5f 2e        MOV        BL,byte ptr [RDI + 0x2e]
+        0040232d 66 81 f3        XOR        BX,0x63c2
+        0040233d 66 81 f3        XOR        BX,0x396c
+        0040234d 4d 01 e3        ADD        R11,R12
+        0040235d 4d 01 e3        ADD        R11,R12
+        0040236d 8a 5f 19        MOV        BL,byte ptr [RDI + 0x19]
+        0040237d 48 31 f3        XOR        RBX,RSI
+        0040238d 50              PUSH       RAX
+        0040239d 48 31 f3        XOR        RBX,RSI
+        004023ad 58              POP        RAX
+        004023bd 66 81 f3        XOR        BX,0x52ae
+        004023cd 49 09 d9        OR         R9,RBX
+        004023dd 58              POP        RAX
+        004023ed 66 81 f3        XOR        BX,0x312d
+        004023fd 4d 01 e3        ADD        R11,R12
+        0040240d 66 81 f3        XOR        BX,0x35b2
+        0040241d 48 31 f3        XOR        RBX,RSI
+        0040242d 4d 01 e3        ADD        R11,R12
+        0040243d 8a 5f 38        MOV        BL,byte ptr [RDI + 0x38]
+        0040244d 4d 01 d1        ADD        R9,R10
+        0040245d 4d 01 e3        ADD        R11,R12
+        0040246d 88 df           MOV        BH,BL
+        0040247d 4d 01 d1        ADD        R9,R10
+        0040248d 4d 01 d1        ADD        R9,R10
+        0040249d 48 35 34        XOR        RAX,0x1234
+        004024ad 8a 5f 3d        MOV        BL,byte ptr [RDI + 0x3d]
+        004024bd 8a 1f           MOV        BL,byte ptr [RDI]
+        004024cd 66 81 f3        XOR        BX,0x4341
+        004024dd 49 09 d9        OR         R9,RBX
+        004024ed 48 31 f3        XOR        RBX,RSI
+        004024fd 8a 5f 04        MOV        BL,byte ptr [RDI + 0x4]
+        0040250d 49 09 d9        OR         R9,RBX
+        0040251d 4d 01 e3        ADD        R11,R12
+        0040252d 48 31 f3        XOR        RBX,RSI
+        0040253d 4d 01 d1        ADD        R9,R10
+        0040254d 49 09 d9        OR         R9,RBX
+        0040255d 4d 01 e3        ADD        R11,R12
+        0040256d 88 df           MOV        BH,BL
+        0040257d 4d 01 e3        ADD        R11,R12
+        0040258d 8a 5f 0b        MOV        BL,byte ptr [RDI + 0xb]
+        0040259d 48 31 f3        XOR        RBX,RSI
+        004025ad 49 09 d9        OR         R9,RBX
+        004025bd 4c 09 d8        OR         RAX,R11
+        004025cd 88 df           MOV        BH,BL
+        004025dd 49 09 d9        OR         R9,RBX
+        004025ed 49 09 d9        OR         R9,RBX
+        004025fd 66 81 f3        XOR        BX,0x3848
+        0040260d 8a 5f 33        MOV        BL,byte ptr [RDI + 0x33]
+        0040261d 48 31 f3        XOR        RBX,RSI
+        0040262d 88 df           MOV        BH,BL
+        0040263d 48 31 f3        XOR        RBX,RSI
+        0040264d 48 31 f3        XOR        RBX,RSI
+        0040265d 4d 01 e3        ADD        R11,R12
+        0040266d 66 81 f3        XOR        BX,0x3054
+        0040267d 88 df           MOV        BH,BL
+        0040268d 48 31 f3        XOR        RBX,RSI
+        0040269d 4d 01 e3        ADD        R11,R12
+        004026ad 88 df           MOV        BH,BL
+        004026bd 49 09 d9        OR         R9,RBX
+        004026cd 8a 5f 0f        MOV        BL,byte ptr [RDI + 0xf]
+        004026dd 49 09 d9        OR         R9,RBX
+        004026ed 49 09 d9        OR         R9,RBX
+        004026fd 48 ff c8        DEC        RAX
+        0040270d 66 81 f3        XOR        BX,0x3443
+        0040271d 4d 01 e3        ADD        R11,R12
+        0040272d 4d 01 d1        ADD        R9,R10
+        0040273d 88 df           MOV        BH,BL
+        0040274d 88 df           MOV        BH,BL
+        0040275d 49 c1 e2 08     SHL        R10,0x8
+        0040276d 48 31 f3        XOR        RBX,RSI
+        0040277d 48 ff c0        INC        RAX
+        0040278d 4d 01 d1        ADD        R9,R10
+        0040279d 66 81 f3        XOR        BX,0x33e1
+        004027ad 4d 01 d1        ADD        R9,R10
+        004027bd 66 81 f3        XOR        BX,0x3804
+        004027cd 4d 01 e3        ADD        R11,R12
+        004027dd 49 09 d9        OR         R9,RBX
+        004027ed 4d 01 d1        ADD        R9,R10
+        004027fd 4d 01 d1        ADD        R9,R10
+        0040280d 4d 01 d1        ADD        R9,R10
+        0040281d 66 81 f3        XOR        BX,0x671d
+        0040282d 66 81 f3        XOR        BX,0x6454
+        0040283d 4d 01 e3        ADD        R11,R12
+        0040284d 8a 5f 07        MOV        BL,byte ptr [RDI + 0x7]
+        0040285d 4d 01 d1        ADD        R9,R10
+        0040286d 48 31 f3        XOR        RBX,RSI
+        0040287d 49 09 d9        OR         R9,RBX
+        0040288d 88 df           MOV        BH,BL
+        0040289d 4d 01 e3        ADD        R11,R12
+        004028ad 66 81 f3        XOR        BX,0x63ba
+        004028bd 8a 5f 40        MOV        BL,byte ptr [RDI + 0x40]
+        004028cd 4d 01 d1        ADD        R9,R10
+        004028dd 48 31 f3        XOR        RBX,RSI
+        004028ed 41 5a           POP        R10
+        004028fd 8a 5f 44        MOV        BL,byte ptr [RDI + 0x44]
+        0040290d 8a 5f 23        MOV        BL,byte ptr [RDI + 0x23]
+        0040291d 4d 01 e3        ADD        R11,R12
+        0040292d 4d 01 e3        ADD        R11,R12
+        0040293d 49 09 d9        OR         R9,RBX
+        0040294d 4d 01 e3        ADD        R11,R12
+        0040295d 4d 01 d1        ADD        R9,R10
+        0040296d 49 09 d9        OR         R9,RBX
+        0040297d 4d 01 e3        ADD        R11,R12
+        0040298d 48 31 f3        XOR        RBX,RSI
+        0040299d 66 81 f3        XOR        BX,0x6417
+        004029ad 4d 01 e3        ADD        R11,R12
+        004029bd 4d 01 d1        ADD        R9,R10
+        004029cd 49 09 d9        OR         R9,RBX
+        004029dd 48 31 f3        XOR        RBX,RSI
+        004029ed 4d 01 e3        ADD        R11,R12
+        004029fd 88 df           MOV        BH,BL
+        00402a0d 66 81 f3        XOR        BX,0x6007
+        00402a1d 66 81 f3        XOR        BX,0x352e
+        00402a2d 48 31 f3        XOR        RBX,RSI
+        00402a3d 66 81 f3        XOR        BX,0x31b5
+        00402a4d 4d 01 d1        ADD        R9,R10
+        00402a5d 4d 01 d1        ADD        R9,R10
+        00402a6d 4d 01 d1        ADD        R9,R10
+        00402a7d 8a 5f 1c        MOV        BL,byte ptr [RDI + 0x1c]
+        00402a8d 4d 01 d1        ADD        R9,R10
+        00402a9d 4d 01 d1        ADD        R9,R10
+        00402aad 49 09 d9        OR         R9,RBX
+        00402abd 48 31 f3        XOR        RBX,RSI
+        00402acd 48 31 f3        XOR        RBX,RSI
+        00402add 48 31 f3        XOR        RBX,RSI
+        00402aed 8a 5f 31        MOV        BL,byte ptr [RDI + 0x31]
+        00402afd 48 31 f3        XOR        RBX,RSI
+        00402b0d 4d 01 d1        ADD        R9,R10
+        00402b1d 4d 01 d1        ADD        R9,R10
+        00402b2d 8a 5f 05        MOV        BL,byte ptr [RDI + 0x5]
+        00402b3d 8a 5f 28        MOV        BL,byte ptr [RDI + 0x28]
+        00402b4d 49 09 d9        OR         R9,RBX
+        00402b5d 4d 01 d1        ADD        R9,R10
+        00402b6d 4d 01 d1        ADD        R9,R10
+        00402b7d 66 81 f3        XOR        BX,0x3890
+        00402b8d 88 df           MOV        BH,BL
+        00402b9d 50              PUSH       RAX
+        00402bad 88 df           MOV        BH,BL
+        00402bbd 88 df           MOV        BH,BL
+        00402bcd 66 81 f3        XOR        BX,0x3605
+        00402bdd 48 31 f3        XOR        RBX,RSI
+        00402bed 8a 5f 01        MOV        BL,byte ptr [RDI + 0x1]
+        00402bfd 49 09 d9        OR         R9,RBX
+        00402c0d 8a 5f 13        MOV        BL,byte ptr [RDI + 0x13]
+        00402c1d 88 df           MOV        BH,BL
+        00402c2d 4d 01 d1        ADD        R9,R10
+        00402c3d 4d 01 d1        ADD        R9,R10
+        00402c4d 48 31 f3        XOR        RBX,RSI
+        00402c5d 49 09 d9        OR         R9,RBX
+        00402c6d 4d 01 e3        ADD        R11,R12
+        00402c7d 48 31 f3        XOR        RBX,RSI
+        00402c8d 48 31 f3        XOR        RBX,RSI
+        00402c9d 4d 01 d1        ADD        R9,R10
+        00402cad 4d 01 d1        ADD        R9,R10
+        00402cbd 4d 01 e3        ADD        R11,R12
+        00402ccd 88 df           MOV        BH,BL
+        00402cdd 48 31 f3        XOR        RBX,RSI
+        00402ced 88 df           MOV        BH,BL
+        00402cfd 4d 01 e3        ADD        R11,R12
+        00402d0d 48 31 f3        XOR        RBX,RSI
+        00402d1d 4d 01 d1        ADD        R9,R10
+        00402d2d 66 81 f3        XOR        BX,0x66a6
+        00402d3d 48 31 f3        XOR        RBX,RSI
+        00402d4d 66 81 f3        XOR        BX,0x361c
+        00402d5d 49 09 d9        OR         R9,RBX
+        00402d6d 8a 5f 39        MOV        BL,byte ptr [RDI + 0x39]
+        00402d7d 4d 01 d1        ADD        R9,R10
+        00402d8d 4d 01 e3        ADD        R11,R12
+        00402d9d 88 df           MOV        BH,BL
+        00402dad 66 81 f3        XOR        BX,0x3850
+        00402dbd 49 09 d9        OR         R9,RBX
+        00402dcd 8a 5f 3f        MOV        BL,byte ptr [RDI + 0x3f]
+        00402ddd 66 81 f3        XOR        BX,0x64e3
+        00402ded 66 81 f3        XOR        BX,0x3904
+        00402dfd 8a 5f 14        MOV        BL,byte ptr [RDI + 0x14]
+        00402e0d 4d 01 d1        ADD        R9,R10
+        00402e1d 88 df           MOV        BH,BL
+        00402e2d 4d 01 e3        ADD        R11,R12
+        00402e3d 88 df           MOV        BH,BL
+        00402e4d 88 df           MOV        BH,BL
+        00402e5d 49 09 d9        OR         R9,RBX
+        00402e6d 8a 5f 09        MOV        BL,byte ptr [RDI + 0x9]
+        00402e7d 4d 01 e3        ADD        R11,R12
+        00402e8d 88 df           MOV        BH,BL
+        00402e9d 49 09 d9        OR         R9,RBX
+        00402ead 4d 01 e3        ADD        R11,R12
+        00402ebd 66 81 f3        XOR        BX,0x315c
+        00402ecd 4d 01 e3        ADD        R11,R12
+        00402edd 66 81 f3        XOR        BX,0x35e3
+        00402eed 66 81 f3        XOR        BX,0x43cf
+        00402efd 66 81 f3        XOR        BX,0x6424
+        00402f0d 8a 5f 03        MOV        BL,byte ptr [RDI + 0x3]
+        00402f1d 49 09 d9        OR         R9,RBX
+        00402f2d 48 31 f3        XOR        RBX,RSI
+        00402f3d 4d 01 e3        ADD        R11,R12
+        00402f4d 8a 5f 37        MOV        BL,byte ptr [RDI + 0x37]
+        00402f5d 49 09 d9        OR         R9,RBX
+        00402f6d 88 df           MOV        BH,BL
+        00402f7d 88 df           MOV        BH,BL
+        00402f8d 48 31 f3        XOR        RBX,RSI
+        00402f9d 88 df           MOV        BH,BL
+        00402fad 48 31 f3        XOR        RBX,RSI
+        00402fbd 8a 5f 30        MOV        BL,byte ptr [RDI + 0x30]
+        00402fcd 49 09 d9        OR         R9,RBX
+        00402fdd 66 81 f3        XOR        BX,0x6442
+        00402fed 48 31 f3        XOR        RBX,RSI
+        00402ffd 48 31 f3        XOR        RBX,RSI
+        0040300d 48 31 f3        XOR        RBX,RSI
+        0040301d 90              NOP
+        0040302d 8a 5f 15        MOV        BL,byte ptr [RDI + 0x15]
+        0040303d 49 09 d9        OR         R9,RBX
+        0040304d 4d 01 e3        ADD        R11,R12
+        0040305d 58              POP        RAX
+        0040306d 66 81 f3        XOR        BX,0x63e6
+        0040307d 66 81 f3        XOR        BX,0x360f
+        0040308d 4d 01 e3        ADD        R11,R12
+        0040309d 49 09 d9        OR         R9,RBX
+        004030ad 50              PUSH       RAX
+        004030bd 4d 01 d1        ADD        R9,R10
+        004030cd 48 31 f3        XOR        RBX,RSI
+        004030dd 66 81 f3        XOR        BX,0x6215
+        004030ed 49 09 d9        OR         R9,RBX
+        004030fd 4d 01 d1        ADD        R9,R10
+        0040310d 4d 01 d1        ADD        R9,R10
+        0040311d 49 09 d9        OR         R9,RBX
+        0040312d 49 09 d9        OR         R9,RBX
+        0040313d 66 81 f3        XOR        BX,0x65d0
+        0040314d 4d 01 d1        ADD        R9,R10
+        0040315d 48 31 f3        XOR        RBX,RSI
+        0040316d 66 81 f3        XOR        BX,0x64b0
+        0040317d 49 09 d9        OR         R9,RBX
+        0040318d 88 df           MOV        BH,BL
+        0040319d 8a 5f 16        MOV        BL,byte ptr [RDI + 0x16]
+        004031ad 4d 01 d1        ADD        R9,R10
+        004031bd 48 31 f3        XOR        RBX,RSI
+        004031cd 66 81 f3        XOR        BX,0x6271
+        004031dd 88 df           MOV        BH,BL
+        004031ed 49 09 d9        OR         R9,RBX
+        004031fd 4d 01 e3        ADD        R11,R12
+        0040320d 88 df           MOV        BH,BL
+        0040321d 8a 5f 1e        MOV        BL,byte ptr [RDI + 0x1e]
+        0040322d 6a 7f           PUSH       0x7f
+        0040323d 8a 5f 18        MOV        BL,byte ptr [RDI + 0x18]
+        0040324d 48 31 f3        XOR        RBX,RSI
+        0040325d 48 31 f3        XOR        RBX,RSI
+        0040326d 48 31 f3        XOR        RBX,RSI
