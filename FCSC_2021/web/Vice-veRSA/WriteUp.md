@@ -1,8 +1,10 @@
 # ViceVeRSA
-![sujet](sujet.png)
+
+![sujet](sujet.png){: width="300"}
 
 On se connecte, on voit une page qui inverse une chaîne de caractère et une page de connexion.
-![exemple](exemple.png)
+
+![exemple](exemple.png){: width="300"}
 
 Dans les commentaires, nous voyons qu'il existe une page *historique*:
 ```html
@@ -10,14 +12,17 @@ Dans les commentaires, nous voyons qu'il existe une page *historique*:
 ```
 
 On peut en revanche voir que l'accès nous est interdit.
-![historique](historique.png)
+
+![historique](historique.png){: height="50"}
+
 On devine alors que notre objectif est d'accéder à cette page.
 
 Si on regarde nos cookies, nous voyons un JSON Web Token (JWT)
 reconnaissables au préfixe "eyJ".
 
 On peut le decode en allant sur https://jwt.io/.
-![jwt.io](jwt.io.png)
+
+![jwt.io](jwt.io.png){: width="300"}
 
 On voit qu'il est signé avec RSA-256 et que dans le champs *payload*, nous avons
 été attribué le rôle guest.
