@@ -1,7 +1,7 @@
 # ViceVeRSA
 
 <p align="center">
-<img src="sujet.png" width="400">
+<img src="sujet.png" width="500">
 </p>
 
 On se connecte, on voit une page qui inverse une chaîne de caractère et une page de connexion.
@@ -18,7 +18,7 @@ Dans les commentaires, nous voyons qu'il existe une page *historique*:
 On peut en revanche voir que l'accès nous est interdit.
 
 <p align="center">
-<img src="historique.png" height="50">
+<img src="historique.png" height="100">
 </p>
 
 On devine alors que notre objectif est d'accéder à cette page.
