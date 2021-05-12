@@ -1,10 +1,14 @@
 # ViceVeRSA
 
-<img src="sujet.png" width="300">
+<p align="center">
+<img src="sujet.png" width="400">
+</p>
 
 On se connecte, on voit une page qui inverse une chaîne de caractère et une page de connexion.
 
+<p align="center">
 <img src="exemple.png" width="300">
+</p>
 
 Dans les commentaires, nous voyons qu'il existe une page *historique*:
 ```html
@@ -13,7 +17,9 @@ Dans les commentaires, nous voyons qu'il existe une page *historique*:
 
 On peut en revanche voir que l'accès nous est interdit.
 
+<p align="center">
 <img src="historique.png" height="50">
+</p>
 
 On devine alors que notre objectif est d'accéder à cette page.
 
@@ -22,7 +28,9 @@ reconnaissables au préfixe "eyJ".
 
 On peut le decode en allant sur https://jwt.io/.
 
-<img src="jwt.io.png" width="300">
+<p align="center">
+<img src="jwt.io.png" width="400">
+</p>
 
 On voit qu'il est signé avec RSA-256 et que dans le champs *payload*, nous avons
 été attribué le rôle guest.
